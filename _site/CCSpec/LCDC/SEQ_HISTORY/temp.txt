@@ -1,1 +1,0 @@
-enqueue(200); dequeue(); enqueue(100); enqueue(300); dequeue();

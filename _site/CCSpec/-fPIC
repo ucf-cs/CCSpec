@@ -1,1 +1,0 @@
-scanner: lex.yy.c common.h config.h

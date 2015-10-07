@@ -1,1 +1,0 @@
-The program does not meet the correctness condition
