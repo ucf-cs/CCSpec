@@ -1,0 +1,64 @@
+THE PROGRAM DOES NOT MEET THE CORRECTNESS CONDITION
+Counter Examples:
+push_back(100); push_back(400); push_back(200); pop_back(); pop_front(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_front(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_front(); 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 200 0 100 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_front(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_front(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_front(); 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 200 0 100 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_front(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_front(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_front(); 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 200 0 100 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_front(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_front(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_front(); 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 100 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 200 0 100 
+christina@ubuntu:~/Documents/ResearchProjects/lcdctools/model-checker$ 
+

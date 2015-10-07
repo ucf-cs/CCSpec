@@ -1,0 +1,104 @@
+THE PROGRAM DOES NOT MEET THE CORRECTNESS CONDITION
+Counter Examples:
+get(k1); get(k2); put(k2, v2); put(k1, v1); 
+get(k1); get(k2); put(k1, v1); put(k2, v2); 
+get(k1); put(k2, v2); get(k2); put(k1, v1); 
+get(k2); get(k1); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k2, v2); put(k1, v1); 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 v2 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+get(k1); get(k2); put(k2, v2); put(k1, v1); 
+get(k1); get(k2); put(k1, v1); put(k2, v2); 
+get(k1); put(k2, v2); get(k2); put(k1, v1); 
+get(k2); get(k1); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k2, v2); put(k1, v1); 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 v2 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v2 0 0 
+get(k1); get(k2); put(k2, v2); put(k1, v1); 
+get(k1); get(k2); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k2, v2); put(k1, v1); 
+get(k2); put(k1, v1); get(k1); put(k2, v2); 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 v1 0 
+Program output:
+0 v1 0 0 
+get(k1); get(k2); put(k2, v2); put(k1, v1); 
+get(k1); get(k2); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k1, v1); put(k2, v2); 
+get(k2); get(k1); put(k2, v2); put(k1, v1); 
+get(k2); put(k1, v1); get(k1); put(k2, v2); 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 0 0 
+Program output:
+0 v1 0 0 
+Sequential Specification output:
+0 0 v1 0 
+Program output:
+0 v1 0 0 
+christina@ubuntu:~/Documents/ResearchProjects/lcdctools/model-checker$ 
+
