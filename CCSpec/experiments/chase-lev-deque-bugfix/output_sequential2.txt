@@ -1,0 +1,453 @@
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); pop_back(); push_back(400); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); pop_back(); push_back(400); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); pop_back(); push_back(100); push_back(400); pop_back(); 
+push_back(200); pop_back(); push_back(400); push_back(100); pop_back(); 
+push_back(200); pop_back(); push_back(400); pop_back(); push_back(100); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); pop_back(); push_back(200); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); pop_back(); push_back(100); push_back(200); pop_back(); 
+push_back(400); pop_back(); push_back(200); push_back(100); pop_back(); 
+push_back(400); pop_back(); push_back(200); pop_back(); push_back(100); 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 200 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 200 0 0 400 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 400 0 
+Program output:
+0 200 0 200 0 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 200 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 400 0 0 200 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 200 0 
+Program output:
+0 200 0 200 0 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); pop_back(); push_back(400); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); pop_back(); push_back(400); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); pop_back(); push_back(100); push_back(400); pop_back(); 
+push_back(200); pop_back(); push_back(400); push_back(100); pop_back(); 
+push_back(200); pop_back(); push_back(400); pop_back(); push_back(100); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); pop_back(); push_back(200); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); pop_back(); push_back(100); push_back(200); pop_back(); 
+push_back(400); pop_back(); push_back(200); push_back(100); pop_back(); 
+push_back(400); pop_back(); push_back(200); pop_back(); push_back(100); 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 200 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 200 0 0 400 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 400 0 
+Program output:
+0 200 0 200 0 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 200 
+Program output:
+0 0 20@
+         �0 0 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 400 0 0 200 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 200 0 
+Program output:
+0 200 0 200 0 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); push_back(400); pop_back(); pop_back(); 
+push_back(100); push_back(200); pop_back(); push_back(400); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); push_back(200); pop_back(); pop_back(); 
+push_back(100); push_back(400); pop_back(); push_back(200); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); push_back(400); pop_back(); pop_back(); 
+push_back(200); push_back(100); pop_back(); push_back(400); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); push_back(100); pop_back(); pop_back(); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); push_back(400); pop_back(); push_back(100); pop_back(); 
+push_back(200); push_back(400); pop_back(); pop_back(); push_back(100); 
+push_back(200); pop_back(); push_back(100); push_back(400); pop_back(); 
+push_back(200); pop_back(); push_back(400); push_back(100); pop_back(); 
+push_back(200); pop_back(); push_back(400); pop_back(); push_back(100); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); push_back(200); pop_back(); pop_back(); 
+push_back(400); push_back(100); pop_back(); push_back(200); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); push_back(100); pop_back(); pop_back(); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); push_back(200); pop_back(); push_back(100); pop_back(); 
+push_back(400); push_back(200); pop_back(); pop_back(); push_back(100); 
+push_back(400); pop_back(); push_back(100); push_back(200); pop_back(); 
+push_back(400); pop_back(); push_back(200); push_back(100); pop_back(); 
+push_back(400); pop_back(); push_back(200); pop_back(); push_back(100); 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 200 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 400 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 400 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 400 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 400 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 400 200 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 200 0 0 400 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 200 0 400 0 
+Program output:
+0 200 0 200 0 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 200 100 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 100 0 200 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 0 100 200 
+Program output:
+0 0 0 200 200 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 0 200 0 100 
+Program output:
+0 0 200 0 200 
+Sequential Specification output:
+0 0 200 400 0 
+Program output:
+0 0 200 200 0 
+Sequential Specification output:
+0 400 0 0 200 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 0 100 
+Program output:
+0 200 0 0 200 
+Sequential Specification output:
+0 400 0 200 0 
+Program output:
+0 200 0 200 0 
+christina@ubuntu:~/Documents/ResearchProjects/lcdctools/model-checker$ 
+

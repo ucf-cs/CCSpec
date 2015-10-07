@@ -1,0 +1,428 @@
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 0 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 0 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+put(K1, V1); put(K2, V2); get(K2); get(K1); 
+put(K1, V1); put(K2, V2); get(K1); get(K2); 
+put(K1, V1); get(K2); put(K2, V2); get(K1); 
+put(K2, V2); put(K1, V1); get(K1); get(K2); 
+put(K2, V2); put(K1, V1); get(K2); get(K1); 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 0 V1 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V1 V2 
+Program output:
+0 0 V2 0 
+Sequential Specification output:
+0 0 V2 V1 
+Program output:
+0 0 V2 0 
+christina@ubuntu:~/Documents/ResearchProjects/lcdctools/model-checker$ ^C
+christina@ubuntu:~/Documents/ResearchProjects/lcdctools/model-checker$ 
+
