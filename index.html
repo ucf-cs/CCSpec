@@ -4,26 +4,25 @@ layout: tervel_home
 
 <div class="hero">
   <div class="container">
-    <img src="{{site.myurl}}/images/tervel-logo.png" class="img-responsive center-block" />
-    <p class="lead">Fast wait-free algorithms designed for shared memory systems</p>
+    <h1>CCSpec</h1>
+    <p class="lead">A Correctness Condition Specification Tool</p>
   </div>
 </div>
 <div class="hero-bar">
   <div class="container">
     <a class="btn btn-success" href="docs/getting-started.html">Get Started</a>
-    <a class="btn btn-success" href="{{ site.gitrepo }}">Get Tervel</a>
+    <a class="btn btn-success" href="{{ site.gitrepo }}">Get CCSpec</a>
   </div>
 </div>
 <div class="landing-feature-1">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <h1>Tervel: A framework for implementing wait-free algorithms</h1>
+<!--    <h1>CCSpec: A Correctness Condition Specification Tool</h1> -->
 
-        <p class="lead"> Tervel is a framework and library that unifies methodologies and techniques to enable the efficient implementation of wait-free algorithms. It includes a unified memory reclamation structure, progress assurance scheme, and a construct that limits recursive helping. It advocates a call-back centric design pattern to reduce code duplication, observable states, and improve code readability. </p>
-
-
+        <p class="lead"> CCSpec is a tool that allows the user to check that their concurrent data structure meets a specified correctness condition. A correctness condition for a concurrent data structure defines the expected behavior of method calls. CCSpec can check any correctness condition in which a concurrent data structure is expected to exhibit equivalent behavior to the sequential counterpart. </p>
       </div>
+	  <!--
       <div class="col-sm-4">
         <h3>Wait-Free</h3>
         <p>
@@ -41,6 +40,7 @@ layout: tervel_home
         As a library, Tervel provides several wait-free algorithms and containers, with plans to expand its collection in the near future.  The concurrent API used in the implementation of these algorithms removes ambiguousness found in the sequential API, improving the developer ability to reason about correctness.
         </p>
       </div>
+	  -->
       </div>
     </div>
   </div>

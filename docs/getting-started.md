@@ -2,51 +2,44 @@
 layout: tervel_documentation
 ---
 
-# Installing Tervel
+# Installing CCSpec
 
 ## System Requirements
 
 Supported platforms:
 
-*   Ubuntu Linux, Mac OS X
+*   Ubuntu Linux
 
 
-## Downloading Tervel
+## Downloading CCSpec
 
-Clone the Tervel from the git repo:
+Clone CCSpec from the git repo:
 
 {% highlight bash %}
 $ git clone {{ site.gitrepo }}
 {% endhighlight %}
 
-## Building Tervel
+## Building CCSpec
 
 ### Dependencies
 
-* g++4.8.0 or greater
+* [Flex](http://sourceforge.net/projects/flex/files/)
 
-* [gflags](http://gflags.github.io/gflags/)
+* [Bison](ftp://prep.ai.mit.edu/pub/gnu/bison/)
 
 ### Building
 
 {% highlight bash %}
-$ cd tervel/tests
-$ ./compile.sh
+$ cd CCSpec
+$ make
+$ make experiments
+{% endhighlight %}
+
+## Running CCSpec Experiments
+
+{% highlight bash %}
+$ cd CCSpec
+$ ./run.sh experiments/IQueue/test.o
 {% endhighlight %}
 
 
-
-## Running Tervel Tests
-
-Browse to the test directory, pick a test, and have fun!
-
-## Sanity Check: Running the tests
-
-To make sure everything runs correctly, run some of the binaries located in:
-`tests/*/Executables/`
-
-## Next Steps
-
-Now you can added Tervel containers and algorithms into your own applications.
-See [user manual](tervel-user-manual.html) for more information.
-Let us know if you have any questions!
