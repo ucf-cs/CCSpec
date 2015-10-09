@@ -7,8 +7,8 @@ kramdown:
 paginate: 10
 highlighter: pygments
 
-#myurl: http://ucf-cs.github.io/CCSpec
-myurl: http://127.0.0.1:4000/
+myurl: http://ucf-cs.github.io/CCSpec
+#myurl: http://127.0.0.1:4000/
 gitrepo: "https://github.com/ucf-cs/CCSpec"
 
 
