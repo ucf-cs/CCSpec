@@ -5,7 +5,7 @@
 #include "nodestack.h"
 
 #include "History.h"
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 #include <fcntl.h>
 

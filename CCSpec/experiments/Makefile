@@ -24,4 +24,13 @@ priority:
 treiber:
 	$(MAKE) -C treiber-stack
 
-
+PHONY += clean
+clean:
+	$(MAKE) -C chase-lev-deque-bugfix clean
+	$(MAKE) -C cliffc-hashtable clean
+	$(MAKE) -C HWQueue clean
+	$(MAKE) -C IQueue clean
+	$(MAKE) -C kFIFO clean
+	$(MAKE) -C ms-queue clean
+	$(MAKE) -C priority-queue clean
+	$(MAKE) -C treiber-stack clean

@@ -5,11 +5,11 @@ OBJECTS := libthreads.o schedule.o model.o threads.o librace.o action.o \
 	   datarace.o impatomic.o cmodelint.o \
 	   snapshot.o malloc.o mymemory.o common.o mutex.o promise.o conditionvariable.o \
 	   context.o scanalysis.o execution.o plugins.o libannotate.o \
-	   linearizable_NEW.o LexicalAnalyzer.o Parser.o CodeGenerator.o VM.o History.o #CLP ADDED
+	   Instructions.o History.o #CLP ADDED
 
 USER := christina
 
-CPPFLAGS += -Iinclude -I. -I/usr/local/include/boost/ #-I/home/christina/Downloads/boost_1_58_0/
+CPPFLAGS += -Iinclude -I. #-I/usr/local/include/boost/ -I/home/christina/Downloads/boost_1_58_0/
 LDFLAGS := -ldl -lrt -rdynamic -pthread
 SHARED := -shared
 
@@ -24,6 +24,7 @@ TESTS_DIR := test
 #CLP ADDED
 PARSER_DIR := LCDC
 HISTORY_GEN_DIR := LCDC/SEQ_HISTORY
+BENCH_DIR := experiments
 
 MARKDOWN := doc/Markdown/Markdown.pl
 
@@ -43,7 +44,8 @@ docs: *.c *.cc *.h
 #	$(MARKDOWN) $< > $@
 
 $(LIB_SO): $(OBJECTS)
-	$(CXX) $(SHARED) -o $(LIB_SO) $+ $(LDFLAGS) -L/usr/local/lib -lboost_serialization #-static 
+	$(CXX) $(SHARED) -o $(LIB_SO) $+ $(LDFLAGS) -L/usr/local/lib 
+#-lboost_serialization -static 
 
 malloc.o: malloc.c
 	$(CC) -fPIC -c malloc.c -DMSPACES -DONLY_MSPACES -DHAVE_MMAP=0 $(CPPFLAGS) -Wno-unused-variable
@@ -62,6 +64,7 @@ clean:
 	$(MAKE) -C $(TESTS_DIR) clean
 	$(MAKE) -C $(PARSER_DIR) clean
 	$(MAKE) -C $(HISTORY_GEN_DIR) clean
+	$(MAKE) -C $(BENCH_DIR) clean
 
 PHONY += mrclean
 mrclean: clean
@@ -83,8 +86,6 @@ parser: $(LIB_SO)
 PHONY += parser
 history_gen: $(LIB_SO)
 	$(MAKE) -C $(HISTORY_GEN_DIR)
-
-BENCH_DIR := experiments
 
 PHONY += experiments
 experiments: $(LIB_SO)

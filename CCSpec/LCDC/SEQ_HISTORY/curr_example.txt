@@ -1,35 +1,12 @@
-enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); 
-enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); 
-enqueue(100); enqueue(200); dequeue(); enqueue(300); dequeue(); 
-enqueue(200); enqueue(100); dequeue(); enqueue(300); dequeue(); 
-enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); 
-enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); 
-enqueue(200); dequeue(); enqueue(100); enqueue(300); dequeue(); 
+insert(300); insert(200); insert(100); deletemin(); deletemin(); 
+insert(300); insert(200); insert(100); deletemin(); deletemin(); 
+insert(300); insert(200); deletemin(); insert(100); deletemin(); 
+insert(300); insert(100); insert(200); deletemin(); deletemin(); 
+insert(300); insert(100); insert(200); deletemin(); deletemin(); 
+insert(200); insert(300); deletemin(); insert(100); deletemin(); 
+insert(200); insert(300); insert(100); deletemin(); deletemin(); 
+insert(200); insert(300); insert(100); deletemin(); deletemin(); 
 Sequential Specification output:
 0 0 0 100 200 
 Program output:
-0 0 0 0 200 
-Sequential Specification output:
 0 0 0 100 200 
-Program output:
-0 0 0 200 0 
-Sequential Specification output:
-0 0 100 0 200 
-Program output:
-0 0 0 0 200 
-Sequential Specification output:
-0 0 200 0 100 
-Program output:
-0 0 0 0 200 
-Sequential Specification output:
-0 0 0 200 100 
-Program output:
-0 0 0 0 200 
-Sequential Specification output:
-0 0 0 200 100 
-Program output:
-0 0 0 200 0 
-Sequential Specification output:
-0 200 0 0 100 
-Program output:
-0 0 0 0 200 

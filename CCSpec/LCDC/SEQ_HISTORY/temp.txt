@@ -1,1 +1,1 @@
-enqueue(200); dequeue(); enqueue(100); enqueue(300); dequeue();
+insert(200); insert(300); insert(100); deletemin(); deletemin();

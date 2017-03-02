@@ -18,7 +18,7 @@
 #include "bugmessage.h"
 
 //CLP ADDED
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 #define INITIAL_THREAD_ID	0
 

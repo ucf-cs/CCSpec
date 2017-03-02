@@ -1,0 +1,101 @@
+The source code is tested on Ubuntu 15.10.
+
+Environment setup:
+
+1. m4
+   Download m4-1.4.18.tar.xz from http://ftp.gnu.org/gnu/m4/?C=M;O=D
+   extract m4-1.4.18.tar.xz
+   cd m4-1.4.18
+   ./configure
+   make
+   sudo make install
+
+2. Bison
+   Download bison-3.0.4.tar.xz from ftp://prep.ai.mit.edu/pub/gnu/bison/
+   extract bison-3.0.4.tar.xz
+   cd bison-3.0.4
+   ./configure
+   make
+   sudo make install
+   
+3. Flex
+   Download flex-2.6.0.tar.xz from https://sourceforge.net/projects/flex/files/
+   extract flex-2.6.0.tar.xz
+   cd flex-2.6.0
+   ./configure
+   make
+   sudo make install
+
+4. Boost
+   Download boost_1_63_0.tar.bz2 from http://www.boost.org/users/history/version_1_63_0.html
+   cd ../../usr/local
+   sudo tar --bzip2 -xf ~/Downloads/boost_1_63_0.tar.bz2
+   mv boost_1_63_0 boost
+   Note: path to boost library can be adjusted at 
+   CCSpec/CCSpec/experiments/benchmarks.mk  Line 12
+
+5. CCSpec 
+   extract CCSpec.zip
+   chmod -R 777 CCSpec
+   cd CCSpec
+   make
+   make experiments
+
+To run experiments:
+
+Chase-Lev Deque
+./run.sh experiments/chase-lev-deque-bugfix/main
+Correctness Condition Specifications:
+CCSpec/experiments/chase-lev-deque-bugfix/deque.c  Line 18
+
+Cliffc-Hashtable
+./run.sh experiments/cliffc-hashtable/table
+Correctness Condition Specifications:
+CCSpec/experiments/cliffc-hashtable/cliffc_hashtable.h  Line 391
+
+HWQueue
+./run.sh experiments/HWQueue/test.o
+Correctness Condition Specifications:
+CCSpec/experiments/HWQueue/HWQueue.h  Line 29
+
+IQueue
+./run.sh experiments/IQueue/test.o
+Correctness Condition Specifications:
+CCSpec/experiments/IQueue/IQueue.h  Line 35
+
+kFIFO 
+./run.sh experiments/kFIFO/main
+Correctness Condition Specifications:
+CCSpec/experiments/kFIFO/boundedsize_kfifo.h  Line 51
+
+MS-Queue
+./run.sh experiments/ms-queue/main
+Correctness Condition Specifications:
+CCSpec/experiments/ms-queue/my_queue.c  Line 78
+
+Priority Queue
+./run.sh experiments/priority-queue/main
+Correctness Condition Specifications:
+CCSpec/experiments/priority-queue/priorityqueue/mdlist/mdlist.cc  Line 109
+
+Treiber-Stack
+./run.sh experiments/treiber-stack/main
+Correctness Condition Specifications:
+CCSpec/experiments/treiber-stack/my_stack.c  Line 76
+
+Directory exploration guidance:
+CCSpec/Instructions.cc, CCSpec/include/Instructions.h
+-Includes the program stack maintained by CCSpec and the functions necessary to push action objects onto the program stack
+
+CCSpec/History.cc, CCSpec/include/History.h
+-Includes the History class that maintains the concurrent histories
+
+CCSpec/LCDC
+-Includes the files necessary for parsing and interpreting a correctness condition specification
+
+CCSpec/LCDC/SEQ_HISTORY
+-Includes the files necessary for parsing and interpreting the legal sequential histories
+
+CCSpec/experiments
+-Includes all data structures tested in the experimental evaluation
+

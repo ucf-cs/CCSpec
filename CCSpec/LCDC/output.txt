@@ -1,127 +1,127 @@
-P = 4 LENGTH = 64
+P = 4 LENGTH = 141
 Pushing 0 into output list
 Pushing 0 into output list
 Pushing 0 into output list
 Pushing 200 into output list
-Pushing 0 into output list
+Pushing 100 into output list
 number of functions = 5
-1 happens before 2
+0 happens before 2
 function graph size = 0
 PRINTING GRAPH
-0 ->
-1 ->2 ->
-2 ->
-3 ->
-4 ->
-1 happens before 3
-function graph size = 1
-PRINTING GRAPH
-0 ->
-1 ->2 ->3 ->
+0 ->2 ->
+1 ->
 2 ->
 3 ->
 4 ->
 0 happens before 3
-function graph size = 0
+function graph size = 1
 PRINTING GRAPH
-0 ->3 ->
-1 ->2 ->3 ->
+0 ->2 ->3 ->
+1 ->
 2 ->
 3 ->
 4 ->
-1 happens before 4
-function graph size = 2
+1 happens before 3
+function graph size = 0
 PRINTING GRAPH
-0 ->3 ->
-1 ->2 ->3 ->4 ->
+0 ->2 ->3 ->
+1 ->3 ->
 2 ->
 3 ->
 4 ->
 0 happens before 4
-function graph size = 1
+function graph size = 2
 PRINTING GRAPH
-0 ->3 ->4 ->
-1 ->2 ->3 ->4 ->
+0 ->2 ->3 ->4 ->
+1 ->3 ->
 2 ->
 3 ->
 4 ->
-3 happens before 4
+1 happens before 4
+function graph size = 1
+PRINTING GRAPH
+0 ->2 ->3 ->4 ->
+1 ->3 ->4 ->
+2 ->
+3 ->
+4 ->
+2 happens before 4
 function graph size = 0
 PRINTING GRAPH
-0 ->3 ->4 ->
-1 ->2 ->3 ->4 ->
-2 ->
-3 ->4 ->
+0 ->2 ->3 ->4 ->
+1 ->3 ->4 ->
+2 ->4 ->
+3 ->
 4 ->
 Adding 0 to S
 Adding 1 to S
 Adding 2 to S
 Adding 3 to S
 Adding 4 to S
-Func Graph Size = 2
 Func Graph Size = 3
-Func Graph Size = 0
+Func Graph Size = 2
 Func Graph Size = 1
 Func Graph Size = 0
-Removing 3 from S
-Removing 4 from S
+Func Graph Size = 0
 Removing 2 from S
 Removing 3 from S
 Removing 4 from S
+Removing 3 from S
+Removing 4 from S
 Removing 4 from S
 Exploring 0
 Local ts graph
-0 ->3 ->4 ->
-1 ->2 ->3 ->4 ->
-2 ->
-3 ->4 ->
+0 ->2 ->3 ->4 ->
+1 ->3 ->4 ->
+2 ->4 ->
+3 ->
 4 ->
 Local inverse graph
 0 ->
 1 ->
-2 ->1 ->
+2 ->0 ->
 3 ->0 ->1 ->
-4 ->0 ->1 ->3 ->
+4 ->0 ->1 ->2 ->
 Incoming nodes to 4
-1 ->3 ->
+1 ->2 ->
 Incoming nodes to 3
 1 ->
+Adding 2 to S
 Exploring 1
 Local ts graph
 0 ->
-1 ->2 ->3 ->4 ->
-2 ->
-3 ->4 ->
+1 ->3 ->4 ->
+2 ->4 ->
+3 ->
 4 ->
 Local inverse graph
 0 ->
 1 ->
-2 ->1 ->
+2 ->
 3 ->1 ->
-4 ->1 ->3 ->
+4 ->1 ->2 ->
 Incoming nodes to 4
-3 ->
+2 ->
 Adding 3 to S
-Adding 2 to S
+Exploring 2
+Local ts graph
+0 ->
+1 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->2 ->
+Adding 4 to S
 Exploring 3
 Local ts graph
 0 ->
 1 ->
 2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
-Adding 4 to S
-Exploring 2
-Local ts graph
-0 ->
-1 ->
-2 ->
 3 ->
 4 ->
 Local inverse graph
@@ -130,76 +130,6 @@ Local inverse graph
 2 ->
 3 ->
 4 ->
-Exploring 4
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-
-0 ->1 ->3 ->2 ->4 ->
-Exploring 4
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-Exploring 2
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-
-0 ->1 ->3 ->4 ->2 ->
-Exploring 2
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
-Exploring 3
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
-Adding 4 to S
 Exploring 4
 Local ts graph
 0 ->
@@ -215,72 +145,201 @@ Local inverse graph
 4 ->
 
 0 ->1 ->2 ->3 ->4 ->
+Exploring 4
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Exploring 3
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+
+0 ->1 ->2 ->4 ->3 ->
+Exploring 3
+Local ts graph
+0 ->
+1 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->2 ->
+Exploring 2
+Local ts graph
+0 ->
+1 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->2 ->
+Adding 4 to S
+Exploring 4
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+
+0 ->1 ->3 ->2 ->4 ->
+Exploring 2
+Local ts graph
+0 ->
+1 ->3 ->4 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->1 ->
+4 ->1 ->2 ->
+Incoming nodes to 4
+1 ->
 Exploring 1
 Local ts graph
-0 ->3 ->4 ->
-1 ->2 ->3 ->4 ->
+0 ->
+1 ->3 ->4 ->
 2 ->
-3 ->4 ->
+3 ->
 4 ->
 Local inverse graph
 0 ->
 1 ->
-2 ->1 ->
+2 ->
+3 ->1 ->
+4 ->1 ->
+Adding 4 to S
+Adding 3 to S
+Exploring 4
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Exploring 3
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+
+0 ->2 ->1 ->4 ->3 ->
+Exploring 3
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Exploring 4
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+
+0 ->2 ->1 ->3 ->4 ->
+Exploring 1
+Local ts graph
+0 ->2 ->3 ->4 ->
+1 ->3 ->4 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->0 ->
 3 ->0 ->1 ->
-4 ->0 ->1 ->3 ->
+4 ->0 ->1 ->2 ->
 Incoming nodes to 4
-0 ->3 ->
+0 ->2 ->
 Incoming nodes to 3
 0 ->
+Exploring 0
+Local ts graph
+0 ->2 ->3 ->4 ->
+1 ->
+2 ->4 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->0 ->
+3 ->0 ->
+4 ->0 ->2 ->
+Incoming nodes to 4
+2 ->
+Adding 3 to S
 Adding 2 to S
-Exploring 0
-Local ts graph
-0 ->3 ->4 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->0 ->
-4 ->0 ->3 ->
-Incoming nodes to 4
-3 ->
-Adding 3 to S
-Exploring 2
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
 Exploring 3
 Local ts graph
 0 ->
 1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
-Adding 4 to S
-Exploring 4
-Local ts graph
-0 ->
-1 ->
-2 ->
+2 ->4 ->
 3 ->
 4 ->
 Local inverse graph
@@ -288,28 +347,12 @@ Local inverse graph
 1 ->
 2 ->
 3 ->
-4 ->
-
-1 ->0 ->2 ->3 ->4 ->
-Exploring 3
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->3 ->
-Adding 4 to S
+4 ->2 ->
 Exploring 2
 Local ts graph
 0 ->
 1 ->
-2 ->
+2 ->4 ->
 3 ->
 4 ->
 Local inverse graph
@@ -317,7 +360,8 @@ Local inverse graph
 1 ->
 2 ->
 3 ->
-4 ->
+4 ->2 ->
+Adding 4 to S
 Exploring 4
 Local ts graph
 0 ->
@@ -333,24 +377,11 @@ Local inverse graph
 4 ->
 
 1 ->0 ->3 ->2 ->4 ->
-Exploring 4
-Local ts graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->
-4 ->
 Exploring 2
 Local ts graph
 0 ->
 1 ->
-2 ->
+2 ->4 ->
 3 ->
 4 ->
 Local inverse graph
@@ -358,52 +389,21 @@ Local inverse graph
 1 ->
 2 ->
 3 ->
-4 ->
-
-1 ->0 ->3 ->4 ->2 ->
-Exploring 2
-Local ts graph
-0 ->3 ->4 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->0 ->
-4 ->0 ->3 ->
-Exploring 0
-Local ts graph
-0 ->3 ->4 ->
-1 ->
-2 ->
-3 ->4 ->
-4 ->
-Local inverse graph
-0 ->
-1 ->
-2 ->
-3 ->0 ->
-4 ->0 ->3 ->
-Incoming nodes to 4
-3 ->
-Adding 3 to S
+4 ->2 ->
+Adding 4 to S
 Exploring 3
 Local ts graph
 0 ->
 1 ->
 2 ->
-3 ->4 ->
+3 ->
 4 ->
 Local inverse graph
 0 ->
 1 ->
 2 ->
 3 ->
-4 ->3 ->
-Adding 4 to S
+4 ->
 Exploring 4
 Local ts graph
 0 ->
@@ -418,39 +418,64 @@ Local inverse graph
 3 ->
 4 ->
 
-1 ->2 ->0 ->3 ->4 ->
+1 ->0 ->2 ->3 ->4 ->
+Exploring 4
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Exploring 3
+Local ts graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+Local inverse graph
+0 ->
+1 ->
+2 ->
+3 ->
+4 ->
+
+1 ->0 ->2 ->4 ->3 ->
 Method_map size = 5
-Method 4: dequeue with input 0
-Method 3: enqueue with input 300
-Method 2: dequeue with input 0
-Method 1: enqueue with input 200
-Method 0: enqueue with input 100
+Method 4: deletemin with input 0
+Method 0: insert with input 300
+Method 1: insert with input 200
+Method 2: insert with input 100
+Method 3: deletemin with input 0
 Legal Sequential Histories:
-0 ->1 ->3 ->2 ->4 ->
-enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); "
-0 ->1 ->3 ->4 ->2 ->
-enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(100); enqueue(200); enqueue(300); dequeue(); dequeue(); "
 0 ->1 ->2 ->3 ->4 ->
-enqueue(100); enqueue(200); dequeue(); enqueue(300); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(100); enqueue(200); dequeue(); enqueue(300); dequeue(); "
-1 ->0 ->2 ->3 ->4 ->
-enqueue(200); enqueue(100); dequeue(); enqueue(300); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(200); enqueue(100); dequeue(); enqueue(300); dequeue(); "
+insert(300); insert(200); insert(100); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(300); insert(200); insert(100); deletemin(); deletemin(); "
+0 ->1 ->2 ->4 ->3 ->
+insert(300); insert(200); insert(100); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(300); insert(200); insert(100); deletemin(); deletemin(); "
+0 ->1 ->3 ->2 ->4 ->
+insert(300); insert(200); deletemin(); insert(100); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(300); insert(200); deletemin(); insert(100); deletemin(); "
+0 ->2 ->1 ->4 ->3 ->
+insert(300); insert(100); insert(200); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(300); insert(100); insert(200); deletemin(); deletemin(); "
+0 ->2 ->1 ->3 ->4 ->
+insert(300); insert(100); insert(200); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(300); insert(100); insert(200); deletemin(); deletemin(); "
 1 ->0 ->3 ->2 ->4 ->
-enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); "
-1 ->0 ->3 ->4 ->2 ->
-enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(200); enqueue(100); enqueue(300); dequeue(); dequeue(); "
-1 ->2 ->0 ->3 ->4 ->
-enqueue(200); dequeue(); enqueue(100); enqueue(300); dequeue(); 
-./LCDC/SEQ_HISTORY/script.sh "enqueue(200); dequeue(); enqueue(100); enqueue(300); dequeue(); "
+insert(200); insert(300); deletemin(); insert(100); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(200); insert(300); deletemin(); insert(100); deletemin(); "
+1 ->0 ->2 ->3 ->4 ->
+insert(200); insert(300); insert(100); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(200); insert(300); insert(100); deletemin(); deletemin(); "
+1 ->0 ->2 ->4 ->3 ->
+insert(200); insert(300); insert(100); deletemin(); deletemin(); 
+./LCDC/SEQ_HISTORY/script.sh "insert(200); insert(300); insert(100); deletemin(); deletemin(); "
 0 0 0 100 200 
-0 0 0 100 200 
-0 0 100 0 200 
-0 0 200 0 100 
-0 0 0 200 100 
-0 0 0 200 100 
-0 200 0 0 100 

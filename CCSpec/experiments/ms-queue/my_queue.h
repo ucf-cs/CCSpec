@@ -2,7 +2,7 @@
 #include <string>
 
 //CLP ADDED
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 #define MAX_NODES			0xf
 

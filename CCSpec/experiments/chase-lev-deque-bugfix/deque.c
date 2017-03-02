@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 //CLP ADDED
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 Deque * create() {
 	Deque * q = (Deque *) calloc(1, sizeof(Deque));

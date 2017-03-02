@@ -9,7 +9,9 @@ LIB_NAME = model
 LIB_SO = lib$(LIB_NAME).so
 
 BASE = ../..
-INCLUDE = -I$(BASE)/include -I../include -I$(BASE) -I..
+INCLUDE = -I$(BASE)/include -I../include -I$(BASE) -I.. -I/usr/local/boost/
+#-I$(BASE)/experiments/boost 
+#-I/usr/local/boost/
 
 # C preprocessor flags
 CPPFLAGS += $(INCLUDE) -g

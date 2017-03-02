@@ -9,6 +9,6 @@
 #include "impatomic.h"
 
 //CLP ADDED
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 #endif /* __CXX_ATOMIC__ */

@@ -18,8 +18,8 @@
 #include "bugmessage.h"
 
 //CLP ADDED
-#include "linearizable_NEW.h"
 #include "History.h"
+#include "Instructions.h"
 
 #include <fcntl.h>
 

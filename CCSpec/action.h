@@ -8,7 +8,6 @@
 #include <cstddef>
 #include <inttypes.h>
 //CLP ADDED
-//#include "linearizable_NEW.h"
 #include <string>
 
 #include "mymemory.h"

@@ -1,7 +1,7 @@
 #include <stdatomic.h>
 
 //CLP ADDED
-#include "linearizable_NEW.h"
+#include "Instructions.h"
 
 #define release memory_order_release 
 #define acquire memory_order_acquire 

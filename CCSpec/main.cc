@@ -41,9 +41,7 @@ static void print_usage(const char *program_name, struct model_params *params)
 	param_defaults(params);
 
 	model_print(
-"Copyright (c) 2013 Regents of the University of California. All rights reserved.\n"
 "Distributed under the GPLv2\n"
-"Written by Brian Norris and Brian Demsky\n"
 "\n"
 "Usage: %s [MODEL-CHECKER OPTIONS] -- [PROGRAM ARGS]\n"
 "\n"
